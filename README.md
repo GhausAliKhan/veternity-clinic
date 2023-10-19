@@ -56,7 +56,7 @@ This project primarily uses SQL for database management.
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
+    <li><a href="https://www.postgresql.org/docs/">postgreSQL</a></li>
   </ul>
 </details>
 
@@ -174,7 +174,7 @@ Thanks to all Microverse community.
 
 - **How do I set up the database locally?**
 
-  - You can run the SQL scripts in a local MySQL environment to set up the database.
+  - You can run the SQL scripts in a local postgreSQL environment to set up the database.
 
 - **How can I run the SQL queries?**
 
