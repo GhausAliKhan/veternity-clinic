@@ -22,6 +22,9 @@ CREATE TABLE species (
   name VARCHAR(50)
 );
 
+-- Alter animals table to drop column species -- 
+ALTER TABLE animals DROP COLUMN species;
+
 -- Modify the animals table to add foreign key references --
 ALTER TABLE animals ADD COLUMN species_id INT REFERENCES species(id);
 ALTER TABLE animals ADD COLUMN owner_id INT REFERENCES owners(id);
